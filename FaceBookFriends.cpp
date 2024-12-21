@@ -44,6 +44,7 @@ bool dfs(Node* &profile, string &target, vector<string> &ds, map<string, int> &v
     return false; 
 
 }
+// logic 
 vector<string> solution(Node* &gordon, string target){
     vector<string> ds; 
     map<string, int> visited; 
