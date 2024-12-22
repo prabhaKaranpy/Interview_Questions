@@ -4,8 +4,8 @@ struct Node{
     string name; 
     int age; 
     Node(){
-        this->name = name; 
-        this->age = age; 
+        this->name = ""; 
+        this->age = 0; 
     }
     Node(string name, int age){
         this->name = name; 
